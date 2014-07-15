@@ -1,6 +1,6 @@
 Name:           snapraid
 Summary:        Disk array backup for many large rarely-changed files
-Version:        6.2
+Version:        6.3
 Release:        1%{?dist}
 License:        GPLv3+
 Group:          Applications/System
@@ -32,6 +32,9 @@ make install DESTDIR=%{buildroot}
 %{_mandir}/man1/snapraid.1*
 
 %changelog
+* Mon Jul 14 2014 Eric Smith <spacewar@gmail.com> - 6.3-1
+- Updated to latest upstream.
+
 * Thu Jun 12 2014 Eric Smith <spacewar@gmail.com> - 6.2-1
 - Updated to latest upstream.
 
