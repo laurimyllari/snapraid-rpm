@@ -1,7 +1,7 @@
 Name:           snapraid
 Summary:        Disk array backup for many large rarely-changed files
-Version:        6.3
-Release:        2%{?dist}
+Version:        7.1
+Release:        1%{?dist}
 License:        GPLv3+
 Group:          Applications/System
 URL:            http://snapraid.sourceforge.net/
@@ -32,6 +32,9 @@ make install DESTDIR=%{buildroot}
 %{_mandir}/man1/snapraid.1*
 
 %changelog
+* Sat Feb 14 2015 Eric Smith <spacewar@gmail.com> - 7.1-1
+- Updated to latest upstream.
+
 * Mon Aug 18 2014 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 6.3-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_21_22_Mass_Rebuild
 
