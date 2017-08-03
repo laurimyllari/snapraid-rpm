@@ -1,7 +1,7 @@
 Name:           snapraid
 Summary:        Disk array backup for many large rarely-changed files
 Version:        10.0
-Release:        3%{?dist}
+Release:        4%{?dist}
 License:        GPLv3+
 Group:          Applications/System
 URL:            http://www.snapraid.it/
@@ -33,6 +33,9 @@ make install DESTDIR=%{buildroot}
 %{_mandir}/man1/snapraid.1*
 
 %changelog
+* Thu Aug 03 2017 Fedora Release Engineering <releng@fedoraproject.org> - 10.0-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Binutils_Mass_Rebuild
+
 * Thu Jul 27 2017 Fedora Release Engineering <releng@fedoraproject.org> - 10.0-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Mass_Rebuild
 
