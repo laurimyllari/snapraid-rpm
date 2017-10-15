@@ -1,11 +1,11 @@
 Name:           snapraid
 Summary:        Disk array backup for many large rarely-changed files
-Version:        10.0
-Release:        4%{?dist}
+Version:        11.1
+Release:        1%{?dist}
 License:        GPLv3+
 Group:          Applications/System
 URL:            http://www.snapraid.it/
-Source0:        https://github.com/amadvance/snapraid/releases/download/v10.0/snapraid-10.0.tar.gz
+Source0:        https://github.com/amadvance/snapraid/releases/download/v11.1/snapraid-11.1.tar.gz
 
 %description
 SnapRAID is a backup program for disk arrays. It stores parity
@@ -33,6 +33,9 @@ make install DESTDIR=%{buildroot}
 %{_mandir}/man1/snapraid.1*
 
 %changelog
+* Sun Oct 15 2017 Lauri Myllari <lauri.myllari@gmail.com> - 11.1-1
+- Updated to latest upstream.
+
 * Thu Aug 03 2017 Fedora Release Engineering <releng@fedoraproject.org> - 10.0-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_27_Binutils_Mass_Rebuild
 
